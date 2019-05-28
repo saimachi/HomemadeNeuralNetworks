@@ -31,3 +31,4 @@ for iter in range(train_iterations):
     syn0 += torch.mm(l0.t(),l1_delta)
 
 print(l1)
+print("Training done!")
